@@ -21,12 +21,6 @@
           inherit sysdig-cli-scanner;
           default = sysdig-cli-scanner;
         };
-        devShells.default = with pkgs;
-          mkShell {
-            buildInputs = [
-              # Add here dependencies for the project.
-            ];
-          };
 
         formatter = pkgs.alejandra;
       }
