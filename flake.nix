@@ -7,8 +7,8 @@
     self,
     nixpkgs,
     utils,
-  }:
-    utils.lib.eachDefaultSystem (
+  }: let
+    eachSystem = utils.lib.eachDefaultSystem (
       system: let
         pkgs = import nixpkgs {
           inherit system;
@@ -25,4 +25,12 @@
         formatter = pkgs.alejandra;
       }
     );
+
+    overlays = {
+      default = final: prev: {
+        sysdig-cli-scanner = self.packages.${final.system}.sysdig-cli-scanner;
+      };
+    };
+  in
+    eachSystem // {inherit overlays;};
 }
