@@ -1,17 +1,17 @@
-version="1.29.0"
+version="1.30.0"
 
 [x86_64-linux]
-url="https://download.sysdig.com/scanning/bin/sysdig-cli-scanner/1.29.0/linux/amd64/sysdig-cli-scanner"
-hash="sha256-xtAUEOThVVa2wGUP4e43v7/zgW6oauWlZrXXNYTfWGg="
+url="https://download.sysdig.com/scanning/bin/sysdig-cli-scanner/1.30.0/linux/amd64/sysdig-cli-scanner"
+hash="sha256-0lDrrKyy4OBharwJNlIJy4GEkkhWcxTwScPP/rVc6Ok="
 
 [aarch64-linux]
-url="https://download.sysdig.com/scanning/bin/sysdig-cli-scanner/1.29.0/linux/arm64/sysdig-cli-scanner"
-hash="sha256-2hYbmcKd2HHY8OFzOUTLnfHbIWLBTKN3M4vfo5E0ZJc="
+url="https://download.sysdig.com/scanning/bin/sysdig-cli-scanner/1.30.0/linux/arm64/sysdig-cli-scanner"
+hash="sha256-trSaAeLLgSdL70MVjKU7Dw+gKgu+K9xttk+Ad7R8hfs="
 
 [x86_64-darwin]
-url="https://download.sysdig.com/scanning/bin/sysdig-cli-scanner/1.29.0/darwin/amd64/sysdig-cli-scanner"
-hash="sha256-E34rPFsIUIth8yzze1MudV4mGk9zNJnN1Jfb8Y7OiLs="
+url="https://download.sysdig.com/scanning/bin/sysdig-cli-scanner/1.30.0/darwin/amd64/sysdig-cli-scanner"
+hash="sha256-0ym6Drdfo9JqjYor2BgYIQVmjcxumbmivmcYKkh9XE8="
 
 [aarch64-darwin]
-url="https://download.sysdig.com/scanning/bin/sysdig-cli-scanner/1.29.0/darwin/arm64/sysdig-cli-scanner"
-hash="sha256-RUmqMIdIeTvMs3XO96+ZxUsaZvqSxXf5mVylR9eoDG4="
+url="https://download.sysdig.com/scanning/bin/sysdig-cli-scanner/1.30.0/darwin/arm64/sysdig-cli-scanner"
+hash="sha256-w3byRcRIpgAONxM20ALO6nInr4H6iS8Z8Bxp94jvw6Y="
